@@ -41,5 +41,7 @@ public class Main {
         finally {
             textReader.close();
         }
+
+        return inputValues;
     }
 }
