@@ -9,8 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Integer> inputValues = getInputValues();
-
-        //Actual code (I know its bad I just did it to be fast)
+        
         int increase = 0;
         int beforeInt = inputValues.get(0) + inputValues.get(1) + inputValues.get(2);
 
